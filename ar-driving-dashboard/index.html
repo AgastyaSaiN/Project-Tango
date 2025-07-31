@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AR Driving Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        overscroll-behavior: none;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "@react-three/drei": "https://esm.sh/@react-three/drei@^10.6.1",
+    "@react-three/fiber": "https://esm.sh/@react-three/fiber@^9.3.0",
+    "@tensorflow-models/coco-ssd": "https://esm.sh/@tensorflow-models/coco-ssd@^2.2.3",
+    "@tensorflow/tfjs-backend-webgl": "https://esm.sh/@tensorflow/tfjs-backend-webgl@^4.22.0",
+    "@tensorflow/tfjs-backend-cpu": "https://esm.sh/@tensorflow/tfjs-backend-cpu@^4.22.0",
+    "react-webcam": "https://esm.sh/react-webcam@^7.2.0",
+    "three": "https://esm.sh/three@^0.178.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-900 text-gray-100 antialiased">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
